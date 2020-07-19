@@ -5,44 +5,88 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="assets/css/main.css" />
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,500,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39|Nanum+Myeongjo&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-  <link rel="stylesheet" href="style5.css" />
-  <title>Tyler Rollins</title>
+  <link rel="icon" href="Website-Logo.png">
+
+  <title>Tyler Rollins Portfolio</title>
+  <link rel="stylesheet" href="./scss/style.css" />
+  <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
 </head>
-  <body>
 
-    <div id="root">
-      <div class="content">
-        <header class="portfolio-header">
-          <h1>Tyler Rollins</h1>
-          <!-- Social Media Buttons -->
-          </header>
+<body>
 
-          <div class="portfolio-components">
-            <!-- HEAD COMPONENT -->
-            <div class="portfolio-component">
-              <!--HERO HEAD COMPONENT -->
-                <div class="porfolio-content-wrapper">
+  <div class="wrapper">
+    <nav class="navBar">
+      <!-- <a href="#">
+          <img src="logo.png" alt="logo">
+        </a> -->
+      <!-- <a href="#">
+          <img src="menu.png" alt="menu">
+        </a> -->
+    </nav>
+    <header>
+      <h1 class="anim">Tyler Rollins</h1>
+      <p class="anim">Digital Media</p>
+    </header>
 
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--END CONTENT-->
-        </div>
-        <!--END ROOT-->
+  <div class="grid2x2">
+    <div class="work">
+      <div class="container">
+        <img class="anim" src="lithgow_opt.png" />
+        <p class="title">Friends of Lithgow Website</p>
+        <div class="overlay"></div>
+        <div class="button"><a href="https://github.com/Tylerrollins97/friendsoflithgow" target="_blank">Github</a></div>
+        <div class="button2"><a href="https://friendsoflithgow.org/" target="_blank">Live site</a></div>
+      </div>
+
+      <div class="container">
+        <img class="anim" src="temp.png" alt="visit-temp" />
+        <p class="title">Node.js Weather App</p>
+        <div class="overlay"></div>
+        <div class="button"><a href="https://github.com/Tylerrollins97/visitor-temp-tracker" target="_blank">Github</a></div>
+        <div class="button2"><a href="https://visitor-temp-tracker.herokuapp.com/" target="_blank">Live Site</a></div>
+      </div>
+      <!-- <img class="anim" src="lithgow_opt.png" alt="project1" /> -->
+      <div class="container">
+        <video class="anim" src="CTE_VIDEOS/CTE_Section1.mp4" alt="project3" controls></video>
+        <p class="title">Maine Department of Education Animations</p>
+        <div class="overlay"></div>
+        <div class="button"><a href="https://www.youtube.com/playlist?list=PL-cO8lcaOYu2z6frk11NpFIt-Gjlr8709" target="_blank">YouTube</a></div>
+      </div>
 
 
+      <div class="container">
+        <img class="anim" src="Rollins_CUGR_Poster3.png" alt="project2" />
+        <p class="title">Feedback (Senior Capstone 2019)</p>
+        <div class="overlay"></div>
+        <div class="button"><a href="https://github.com/Tylerrollins97/Feedback" target="_blank">Github</a></div>
+        <div class="button2"><a href="https://www.youtube.com/watch?v=nkmnarUPoxo" target="_blank">YouTube</a></div>
+      </div>
+    </div>
+  </div>
+  </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript" src="app2.js"></script>
-    <!-- <script type="text/javascript" src="app.js"></script> -->
-    <script src="form.js"></script>
+     <header> <!--header2 -->
+      <h1 class="anim">Contact</h1>
+      <p class="anim">Get in Touch</p>
+    </header>
 
-  </body>
+    <div class="contact"></div>
+
+    <footer class="anim">
+      <a href="mailto:trollins97@gmail.com?subject=Reaching%20Out" target="_blank">Email</a> | <a href="https://www.linkedin.com/in/tylerjrollins/" target="_blank">LinkedIn</a> | <a href="https://github.com/Tylerrollins97" target="_blank">Github</a>
+    </footer>
+
+  </div> <!--Wrapper -->
+
+  <script src="form.js"></script>
+  <script type="text/javascript">
+    window.sr = ScrollReveal();
+    sr.reveal('.anim');
+  </script>
+</body>
+
 </html>
